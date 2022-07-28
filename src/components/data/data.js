@@ -1,4 +1,4 @@
-import {UilEstate} from '@iconscout/react-unicons';
+import {UilEstate, UilClipboardAlt, UilUsersAlt, UilPackage} from '@iconscout/react-unicons';
 
 
 export const sidebarData = [
@@ -7,19 +7,50 @@ export const sidebarData = [
         heading: "Dashboard"
     },
     {
-        icon: UilEstate,
-        heading: "User"
-    },
-    {
-        icon: UilEstate,
+        icon: UilClipboardAlt,
         heading: "Announce"
     },
     {
-        icon: UilEstate,
-        heading: "Post"
+        icon: UilUsersAlt,
+        heading: "User"
     },
+
     {
-        icon: UilEstate,
-        heading: "Logout"
+        icon: UilPackage,
+        heading: "Post"
     }
 ]
+export const cardsData = [
+    {
+      title: "Announcements",
+      color: {
+        backGround: "linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)",
+        boxShadow: "0px 10px 20px 0px #e0c6f5",
+      },
+      barValue: 70,
+      value: "25,970",
+      png: UilClipboardAlt,
+    },
+    {
+      title: "Users",
+      color: {
+        backGround: "linear-gradient(180deg, #FF919D 0%, #FC929D 100%)",
+        boxShadow: "0px 10px 20px 0px #FDC0C7",
+      },
+      barValue: 80,
+      value: "14,270",
+      png: UilUsersAlt,
+
+    },
+    {
+      title: "Post",
+      color: {
+        backGround:
+          "linear-gradient(rgb(248, 212, 154) -146.42%, rgb(255 202 113) -46.42%)",
+        boxShadow: "0px 10px 20px 0px #F9D59B",
+      },
+      barValue: 60,
+      value: "4,270",
+      png: UilPackage,
+    }
+  ];

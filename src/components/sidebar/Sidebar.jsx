@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import Logo from '../../imgs/img1.png'
+// import Logo from '../../imgs/img1.png'
 import './Sidebar.css'
 import { sidebarData } from '../data/data';
 import {UilSignOutAlt} from '@iconscout/react-unicons';
@@ -8,7 +8,7 @@ const Sidebar = () =>{
     return(
         <div className='Sidebar'>
             <div className='logo'>
-                <img scr={Logo} alt="img"/>
+                {/* <img scr={Logo} alt="img"/> */}
                 <span>
                     Urugerero
                 </span>

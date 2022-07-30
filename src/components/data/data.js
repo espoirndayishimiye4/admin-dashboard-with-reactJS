@@ -24,7 +24,7 @@ export const cardsData = [
     {
       title: "Announcements",
       color: {
-        backGround: "linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)",
+        backGround: "#017143",
         boxShadow: "0px 10px 20px 0px #e0c6f5",
       },
       barValue: 70,
@@ -34,7 +34,7 @@ export const cardsData = [
     {
       title: "Users",
       color: {
-        backGround: "linear-gradient(180deg, #FF919D 0%, #FC929D 100%)",
+        backGround: "#017143",
         boxShadow: "0px 10px 20px 0px #FDC0C7",
       },
       barValue: 80,
@@ -46,7 +46,7 @@ export const cardsData = [
       title: "Post",
       color: {
         backGround:
-          "linear-gradient(rgb(248, 212, 154) -146.42%, rgb(255 202 113) -46.42%)",
+          "#017143",
         boxShadow: "0px 10px 20px 0px #F9D59B",
       },
       barValue: 60,

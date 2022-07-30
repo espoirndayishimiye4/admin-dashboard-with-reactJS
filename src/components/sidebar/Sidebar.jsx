@@ -10,7 +10,7 @@ const Sidebar = () =>{
             <div className='logo'>
                 {/* <img scr={Logo} alt="img"/> */}
                 <span>
-                    Urugerero
+                    Urugerero<i>Platform</i>
                 </span>
             </div>
             <div className='menu'>
